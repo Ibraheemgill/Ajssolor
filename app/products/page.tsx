@@ -201,15 +201,15 @@ function ProductCard({ product }: { product: Product }) {
           ))}
         </div>
 
-        {/* Price */}
-        <div className="pt-4 mt-auto">
+        
+        {/* <div className="pt-4 mt-auto">
           <p
             className="text-[#111827] dark:text-white text-2xl font-semibold"
             style={{ fontFamily: "var(--font-inter, Inter, sans-serif)" }}
           >
             {product.price}
           </p>
-        </div>
+        </div> */}
 
         {/* Buttons */}
         <div className="grid grid-cols-2 gap-3 pt-4">
